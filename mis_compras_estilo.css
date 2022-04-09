@@ -1,0 +1,243 @@
+* {
+     padding: 0;
+     margin: 0;
+
+}
+
+body {
+     background-image: url("https://cdn.discordapp.com/attachments/840300025552568362/962236992278650880/unknown.png");
+     background-repeat: repeat-y-x;
+}
+
+#header {
+     display: flex;
+     background-color: #18A85F;
+     justify-content: space-between;
+     align-items: center;
+}
+
+#menu {
+     display: flex;
+     align-items: flex-end;
+}
+
+#menu>a {
+     margin: 0 40px 0 0;
+     color: #ffffff;
+     text-decoration: none;
+     padding-top: 50px;
+}
+
+#redess>a {
+     margin: 0 40px 0 0;
+     color: #ffffff;
+     text-decoration: none;
+     padding-top: 35px;
+}
+
+#menu>a:hover {
+     border-top: 5px #67ebcc solid;
+}
+
+#redes {
+     display: flex;
+     justify-content: center;
+     background-color: #ffffff;
+     margin: 0 auto;
+}
+
+/* RED
+.red{
+     width: 10%;
+     display: flex;
+     height: 40px;
+     align-items: center;
+     justify-content: center;
+}
+
+.red:hover{
+     background-color: black;
+     color: #ffffff;
+     transition-duration: 0.5s ;
+}
+*/
+
+#barra{
+     display: flex;
+     justify-content: space-around;
+     background-color: aliceblue;
+     
+}
+#inicio>a{
+     color: #090303;
+     text-decoration: none;
+}
+#carro>a{
+     color: #090303;
+     text-decoration: none;
+}
+#mis_compras>a{
+     color: #090303;
+     text-decoration: none;
+}
+#productos>a{
+     color: #090303;
+     text-decoration: none;
+}
+#suscribirse>a{
+     color: #090303;
+     text-decoration: none;
+}
+#busqueda{
+     display: flex;
+     justify-content: end;
+}
+
+#titulo {
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+}
+
+
+
+#contenido {
+     height: 0 auto;
+     width: 80%;
+     margin: 0 auto;
+     background-color: #ffffff;
+     /*background: linear-gradient(45deg, greenyellow, dodgerblue);*/
+     display: flex;
+     align-content: space-around;
+
+}
+
+#pie_de_pagina {
+     height: 20vh;
+}
+
+#pie_de_pagina_2 {
+     height: 20vh;
+     background-color: #18A85F;
+}
+
+#a1 {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+#a2 {
+     justify-content: end;
+     flex-wrap: nowrap;
+}
+
+
+/*
+#banner{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     flex-direction: column;
+     background: linear-gradient(45deg, greenyellow);
+
+}
+#banner>img{
+     width: 70%;
+}
+*/
+
+/*
+#table>thead{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#table>tbody{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+    background: linear-gradient(0deg, rgb(255, 255, 0), #f01010,rgb(255, 0, 230));
+    background: linear-gradient(0deg, rgb(255, 255, 0), #f01010,rgb(255, 0, 230),rgb(153, 0, 255));
+
+
+table {
+     width: 100%;
+     
+  }
+  th, td {
+     width: 25%;
+  }
+
+
+  
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BANNER          
+     <div id="banner">
+                         
+               <h1>Resultado de la búsqueda</h1>
+
+               <table summary="Tabla con los datos de los resultados de la búsqueda">
+               <caption>Resultado de la búsqueda</caption>
+               <tr>
+               <th abbr="Imagen del producto" scope="col">Imagen</th>
+               <th abbr="Datos del producto" scope="col">Datos</th>
+               </tr>
+
+               <tr>
+               <td>
+                    <img src="imagenes/portatil.png" alt="Imagen del ordenador portátil" />
+               </td>
+               <td>
+                    <h4><a href="#" title="Ver más información sobre el portátil">Portátil - 3 GHz - 4 GB RAM</a></h4>
+                    <p><a href="#" title="Comprar el portátil">Comprar:</a> <del>2.990 &euro;</del> <strong>2.599 &euro;</strong></p>
+               </td>
+               </tr>
+
+               <tr>
+               <td><img src="imagenes/videocamara.png" alt="Imagen de la videocámara" /></td>
+               <td>
+                    <h4><a href="#" title="Ver más información sobre la videocámara">Videocámara - Alta definición 1080p - 60 GB</a></h4>
+                    <p><a href="#" title="Comprar la videocámara">Comprar:</a> <del>1.099 &euro;</del> <strong>999 &euro;</strong></p>
+               </td>
+               </tr>
+
+               <tr>
+               <td><img src="imagenes/tv.png" alt="Imagen del televisor" /></td>
+               <td>
+                    <h4><a href="#" title="Ver más información sobre el televisor">Televisor - 46" - Full HD</a></h4>
+                    <p><a href="#" title="Comprar el televisor">Comprar:</a> <del>1.999 &euro;</del> <strong>1.799 &euro;</strong></p>
+               </td>
+               </tr>
+
+               <tr>
+               <td><img src="imagenes/movil.png" alt="Imagen del móvil" /></td>
+               <td>
+                    <h4><a href="#" title="Ver más información sobre el móvil">Móvil - 3G - Wi-Fi - 8 GB</a></h4>
+                    <p><a href="#" title="Comprar el móvil">Comprar:</a> <del>399 &euro;</del> <strong>349 &euro;</strong></p>
+               </td>
+               </tr>
+               </table>
+
+             
+     </div>
+     */

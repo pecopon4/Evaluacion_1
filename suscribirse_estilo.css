@@ -1,0 +1,133 @@
+* {
+     padding: 0;
+     margin: 0;
+
+}
+
+#header {
+     display: flex;
+     background-color: #18A85F;
+     justify-content: space-between;
+     align-items: flex-start;
+}
+
+#menu {
+     display: flex;
+     align-items: flex-end;
+}
+#logo{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#logo>p{
+     color: #ffffff;
+
+}
+#menu>a {
+     margin: 0 40px 0 0;
+     color: #ffffff;
+     text-decoration: none;
+     padding-top: 50px;
+}
+
+#redess>a {
+     margin: 0 40px 0 0;
+     color: #ffffff;
+     text-decoration: none;
+     padding-top: 35px;
+}
+
+#menu>a:hover {
+     border-top: 5px #67ebcc solid;
+}
+
+#redes {
+     display: flex;
+     justify-content: center;
+     background-color: #ffffff;
+     margin: 0 auto;
+}
+
+/* RED
+.red{
+     width: 10%;
+     display: flex;
+     height: 40px;
+     align-items: center;
+     justify-content: center;
+}
+
+.red:hover{
+     background-color: black;
+     color: #ffffff;
+     transition-duration: 0.5s ;
+}
+*/
+
+#barra{
+     display: flex;
+     justify-content: space-around;
+     background-color: aliceblue;
+     
+}
+#inicio>a{
+     color: #090303;
+     text-decoration: none;
+}
+#carro>a{
+     color: #090303;
+     text-decoration: none;
+}
+#mis_compras>a{
+     color: #090303;
+     text-decoration: none;
+}
+#productos>a{
+     color: #090303;
+     text-decoration: none;
+}
+#suscribirse>a{
+     color: #090303;
+     text-decoration: none;
+}
+
+body {
+     background-image: url("https://cdn.discordapp.com/attachments/840300025552568362/962236992278650880/unknown.png");
+     background-repeat: repeat-y-x;
+}
+
+#busqueda{
+     display: flex;
+     justify-content: end;
+}
+
+#titulo {
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+}
+
+#contenido {
+     height: 0 auto;
+     width: 80%;
+     margin: 0 auto;
+     background-color: #ffffff;
+     /*background: linear-gradient(45deg, greenyellow, dodgerblue);*/
+}
+
+#btn_enviar{
+     display: flex;
+     justify-content: end;
+}
+
+#pie_de_pagina {
+     height: 20vh;
+}
+
+#pie_de_pagina_2 {
+     height: 20vh;
+     background-color: #18A85F;
+}
+
+
