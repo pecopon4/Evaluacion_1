@@ -1,0 +1,108 @@
+*{
+margin: 0;
+padding: 0;
+}
+#inicio{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#inicioL{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #419f00;
+}
+#menuP1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#menuP{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+} 
+#menuP1>a{
+    margin: 0 40px 0 0;
+        
+}
+#menuP>a{
+    margin: 0 40px 0 0;
+        
+}
+#redes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background-color: greenyellow;
+}
+#menu>a{
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+ 
+    
+}
+#menu{
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+ 
+    
+}
+#seccion1{
+
+    box-shadow: 0px 10px 10px black;
+}
+
+#seccion2{
+    box-shadow: 0px 10px 10px black;
+}
+
+#seccion3{
+    box-shadow: 0px 10px 10px black;
+}
+
+#seccion4{
+    box-shadow: 0px 10px 10px black;
+}
+.card-body>a {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+.card-title{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.btn {
+display: flex;
+align-items: center;
+text-align: center;
+}
+.card-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    color: #419f00;
+}
+.SP{
+    display: flex;
+    justify-content: center;
+
+}
+.Carshop{
+    display: flex;
+    justify-content: center;
+}
+.carshopimg{
+    display: flex;
+    justify-content: center;
+}

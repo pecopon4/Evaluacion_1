@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+    justify-content: center;
+}
+
+
+body{ 
+    font-family: Pacifico;
+    background-image: url('imagen/1.png'); 
+    justify-content: space-between;
+    background-size: 100%;
+}
+
+.registro-form h1{
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 20px;
+}
+
+.registro-form .panel{
+  margin: auto;
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
+  color: rgb(73, 121, 128);
+}
+
+
+label.label-floatlabel {
+    font-weight: bold;
+    color: rgb(136, 179, 69);
+    font-size: 11px;
+}
